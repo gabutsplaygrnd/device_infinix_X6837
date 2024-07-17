@@ -153,6 +153,9 @@ ENABLE_VENDOR_RIL_SERVICE := true
 
 # SEPolicy
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := X6837,Infinix-X6837
