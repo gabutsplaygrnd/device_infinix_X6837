@@ -7,6 +7,9 @@ vendor.af.dynamic.sleeptime.enable=true
 vendor.af.pausewait.enable=false
 vendor.af.threshold.src_and_effect_count=5
 
+# Fuse passthrough
+persist.sys.fuse.passthrough.enable=true
+
 # Bluetooth
 bluetooth.profile.a2dp.source.enabled=true
 bluetooth.profile.asha.central.enabled=true
